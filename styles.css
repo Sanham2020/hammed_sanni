@@ -349,7 +349,7 @@ button:hover:after {
 .user_det {
     position: absolute;
     top: 75%;
-    left:460px;
+    left:390px;
     width: 260px;
     background-color: #171822;
     color: #fff;
@@ -1167,7 +1167,7 @@ button:hover:after {
     align-items: center;
     gap: 20px;
     background-color: #171B22;
-    padding: 5px;
+    padding: 1px;
      border-radius: 10px;
 }
 
@@ -1306,6 +1306,11 @@ button:hover:after {
         width: 100%;
     }
 
+    .content h1 {
+        font-size:.4rem;
+        line-height: 6rem;
+    }
+    
     .user_det{
         display: none;
     }
@@ -1399,5 +1404,15 @@ button:hover:after {
     }
 }
 @media (max-width:320px ) {
-     
+    .side_bar{
+        width: 50%;
+    }
+
+    .content h1{
+        text-align: center;
+    }
+
+    .info h2{
+        font-size: 1rem;
+    }
 }
