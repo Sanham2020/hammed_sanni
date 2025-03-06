@@ -1337,14 +1337,14 @@ button:hover:after {
     }
 .rotate_elem1 {
     position: absolute;
-    top: 1%;
+    top: 4%;
     left: 8%;
 }
 
 .rotate_elem2 {
     position: absolute;
-    top: 6%;
-    left: 6%;
+    top: 10%;
+    left: 16.5%;
 }
     .education_card:before{
         left: -4%;
