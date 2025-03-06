@@ -312,8 +312,8 @@ button:hover:after {
 
 .rotate_elem1 {
     position: absolute;
-    top: 1%;
-    left: 8%;
+    top: -7%;
+    left: -7%;
     width: 50px;
     height: 50px;
     animation: rotate 3s infinite linear;
@@ -1335,7 +1335,17 @@ button:hover:after {
     .content h1{
         font-size: 3rem;
     }
+.rotate_elem1 {
+    position: absolute;
+    top: 1%;
+    left: 8%;
+}
 
+.rotate_elem2 {
+    position: absolute;
+    top: 6%;
+    left: 6%;
+}
     .education_card:before{
         left: -4%;
     }
